@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "c4c21657bf624b7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6893e45dd8a898f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00ffeec75e431276",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "content/CALCULO_INTEGRAL_1.pdf"
+              }
+            }
+          },
+          {
+            "id": "6277ad9dd0504210",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lista-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5673427e07eb4c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "878fb85496b0e826",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02e0d2f88aeb770a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49e2b120fc663bd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "721bb1ad06ac394f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "49d9ef92ca92aae0",
+    "type": "split",
+    "children": [
+      {
+        "id": "83d8b1aa2d85613b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b313bccf8ad7e247",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/CALCULO_INTEGRAL_1.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a7f43fc52486590",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/CALCULO_INTEGRAL_1.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11cf3cb182c903ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58d508a30b082bf1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/CALCULO_INTEGRAL_1.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "02e0d2f88aeb770a",
+  "lastOpenFiles": [
+    "resumo-01.md",
+    "content",
+    "content/CALCULUS_6.pdf",
+    "content/CALCULO_INTEGRAL_1.pdf",
+    "content/LISTA_EXERCICIOS_DERIVADAS_GABARITO.pdf",
+    "content/II_LISTA_EXERCICIOS_INTEGRAL.pdf",
+    "content/I_LISTA_EXERCICIOS.pdf",
+    "lista-01.md",
+    "README.md"
+  ]
+}
