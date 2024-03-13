@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lista-01.md",
+                "file": "resumo-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,16 +156,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e0d2f88aeb770a",
+  "active": "00ffeec75e431276",
   "lastOpenFiles": [
     "resumo-01.md",
+    "lista-01.md",
+    "content/CALCULO_INTEGRAL_1.pdf",
     "content",
     "content/CALCULUS_6.pdf",
-    "content/CALCULO_INTEGRAL_1.pdf",
     "content/LISTA_EXERCICIOS_DERIVADAS_GABARITO.pdf",
     "content/II_LISTA_EXERCICIOS_INTEGRAL.pdf",
     "content/I_LISTA_EXERCICIOS.pdf",
-    "lista-01.md",
     "README.md"
   ]
 }
