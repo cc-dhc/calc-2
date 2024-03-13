@@ -11,9 +11,11 @@
             "id": "00ffeec75e431276",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/CALCULO_INTEGRAL_1.pdf"
+                "file": "resumo-01.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/CALCULO_INTEGRAL_1.pdf",
+                "file": "resumo-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/CALCULO_INTEGRAL_1.pdf",
+                "file": "resumo-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/CALCULO_INTEGRAL_1.pdf"
+                "file": "resumo-01.md"
               }
             }
           }
@@ -158,14 +160,14 @@
   },
   "active": "00ffeec75e431276",
   "lastOpenFiles": [
+    "README.md",
+    "content/CALCULO_INTEGRAL_1.pdf",
     "resumo-01.md",
     "lista-01.md",
-    "content/CALCULO_INTEGRAL_1.pdf",
     "content",
     "content/CALCULUS_6.pdf",
     "content/LISTA_EXERCICIOS_DERIVADAS_GABARITO.pdf",
     "content/II_LISTA_EXERCICIOS_INTEGRAL.pdf",
-    "content/I_LISTA_EXERCICIOS.pdf",
-    "README.md"
+    "content/I_LISTA_EXERCICIOS.pdf"
   ]
 }

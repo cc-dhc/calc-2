@@ -63,6 +63,7 @@ $\int u(x) \cdot v(x) \, dx = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, dx$
 
 $\int u \, dv = u \cdot v - \int v \, du$
 
+Escolher o $u$ como polinômio quando possível, exceto $x^{-1}$ (verificar informação).
 ### Exemplo
 
 - $\int \cos{x} \, dx$ 
