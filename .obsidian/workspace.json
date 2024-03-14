@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "00ffeec75e431276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resumo-01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6277ad9dd0504210",
             "type": "leaf",
             "state": {
@@ -158,16 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00ffeec75e431276",
+  "active": "6277ad9dd0504210",
   "lastOpenFiles": [
+    "content/II_LISTA_EXERCICIOS_INTEGRAL.pdf",
+    "resumo-01.md",
     "README.md",
     "content/CALCULO_INTEGRAL_1.pdf",
-    "resumo-01.md",
     "lista-01.md",
     "content",
     "content/CALCULUS_6.pdf",
     "content/LISTA_EXERCICIOS_DERIVADAS_GABARITO.pdf",
-    "content/II_LISTA_EXERCICIOS_INTEGRAL.pdf",
     "content/I_LISTA_EXERCICIOS.pdf"
   ]
 }

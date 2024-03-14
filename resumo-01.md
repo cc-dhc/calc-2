@@ -1,5 +1,7 @@
 # Resumo sobre integral
-## Definição: $\int_{a}^{b} f(x) \, dx$
+## Definição
+
+	$\int_{a}^{b} f(x) \, dx$
 
 - $f(x)$ é o integrando
 - $a$ é o limite inferior
@@ -71,4 +73,26 @@ Escolher o $u$ como polinômio quando possível, exceto $x^{-1}$ (verificar info
 	- $dv = \cos{x} \, dx$, $v = \sin{x}$
 	- $u\cdot v - \int v \, du = x\cdot \sin{x} - \int \sin{x} \, dx$
 	- $x\cdot \sin{x} - (-\cos{x}) + C = x\cdot \sin{x} \cdot \cos{x} + C$
+
+### Propriedades
+
+- $\int \sin{(c\cdot x)} \, dx = -\frac{1}{c}\cdot\cos{(c\cdot x)}$
+- $\int \cos{(c\cdot x)} \, dx = \frac{1}{c}\cdot\sin{(c\cdot x)}$
+- $\int \ln{x} \, dx = x \cdot \ln{x} - x$
+
+## Teorema Fundamental do Cálculo
+
+Cálculo, James Stewart, capítulo 5
+
+Se $f(x)$ é contínua no intervalo $[a, b]$, então:
+
+	$g'(x) = \int_{a}{x} f(t) \, dt$
+
+$g(x)$ é derivável em $[a, b]$ e $g'(x) = f(x)$.
+
+Se $f$ for contínua em $[a, b]$, então:
+
+	$\int_{a}{b} f(x) \, dx = F(b) - F(a)$
+
+Onde $F$ é qualquer primitiva de $f$, isto é, uma função tal que $F' = f$.
 
