@@ -27,38 +27,31 @@ data = {
     23:(23, 143.30, 0.00)
 }
 
-def func(x: float):
-    return math.sin(x)
-
-def meu_simpsons_i(li: float, ls: float, func):
-    h = (ls - li) / 2.0
-
-    return (1/3.0) * h * (func(li) + 4*func(h) + func(ls))
-
-# Function for approximate integral 
-def simpsons_(ll, ul, delta_x, func, round_h=False): 
+def simpsons_( ll, ul, h, n,  func): 
   
     # Calculating the value of h 
-    h = ( ul - ll )/delta_x
+    #h = ( ul - ll )/n 
 
-    if round_h: h = int(h)
-  
     # List for storing value of x and f(x) 
     x = list() 
     fx = list() 
-      
+    
     # Calculating values of x and f(x) 
     i = 0
-    while i<= delta_x: 
-        x.append(ll + i * h) 
+    while i<= n: 
+        x_to_append = ll + i * h
+        #print(f'x_to_append = {x_to_append}')
+        x.append(x_to_append) 
+        to_append = func(x[i])
+        #print(f'fx_to_append = {to_append}')
         fx.append(func(x[i])) 
         i += 1
   
     # Calculating result 
     res = 0
     i = 0
-    while i<= delta_x: 
-        if i == 0 or i == delta_x: 
+    while i<= n: 
+        if i == 0 or i == n: 
             res+= fx[i] 
         elif i % 2 != 0: 
             res+= 4 * fx[i] 
@@ -66,7 +59,7 @@ def simpsons_(ll, ul, delta_x, func, round_h=False):
             res+= 2 * fx[i] 
         i+= 1
     res = res * (h / 3) 
-    return res 
+    return res
 
 def func_load_1(t: int) -> float:
     return data[t][1]
@@ -86,10 +79,17 @@ def func_supply_2(t: float) -> float:
                 + 36.5*math.cos(6*math.pi*t/24) - 0.89*math.sin(6*math.pi*t/24))
 
 if __name__ == "__main__":
-    res_deltax_1 = simpsons_(0, 23, 23, func_supply_1, round_h=True) - simpsons_(0, 23, 23, func_load_1, round_h=True)
-    res_deltax_2 = simpsons_(0, 23, 12, func_supply_1, round_h=True) - simpsons_(0, 23, 12, func_load_1, round_h=True)
-    res_smoothed = simpsons_(0, 23, 100, func_supply_2) - simpsons_(0, 23, 100, func_load_2)
+    supply_deltax_1 = simpsons_(0, 23, 1, 23, func_supply_1)
+    load_deltax_1 = simpsons_(0, 23, 1, 23, func_load_1)
 
-    print("Prejuízo (delta x = 1):\t\tA$ {:.2f}".format(res_deltax_1))
-    print("Prejuízo (delta x = 2):\t\tA$ {:.2f}".format(res_deltax_2))
-    print("Lucro (funções suavizadas):\tA$ {:.2f}".format(res_smoothed))
+    res_deltax_1 = supply_deltax_1*0.50 - load_deltax_1*0.18
+
+    print(f'dx = 1: {res_deltax_1}')
+
+    supply_deltax_2 = simpsons_(0, 23, 2, 11, func_supply_1)
+    load_deltax_2 = simpsons_(0, 23, 2, 11, func_load_1)
+
+    res_deltax_2 = supply_deltax_2*0.50 - load_deltax_2*0.18
+
+    print(f'dx = 2: {res_deltax_2}')
+
