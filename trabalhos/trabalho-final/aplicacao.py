@@ -16,7 +16,10 @@ def generate_rsa_key():
 
 # Gerar um conjunto de chaves
 num_keys = 1000
-keys = [generate_rsa_key() for _ in range(num_keys)]
+keys = []
+for i in range(num_keys):
+#	print(f'{i}: gen key')
+	keys.append(generate_rsa_key())
 
 # Serializar as chaves públicas para comparar e contar frequências
 serialized_keys = [key.public_bytes(
@@ -77,3 +80,4 @@ print(f"A entropia calculada das chaves RSA é: {integral_value} bits")
 # Valor recomendado de entropia baseado na quantidade de chaves
 recommended_entropy = math.log2(num_keys)
 print(f"O valor recomendado de entropia para {num_keys} chaves é: {recommended_entropy:.2f} bits")
+
