@@ -1,0 +1,2 @@
+A entropia calculada das chaves RSA é: 9.955818500378426 bits
+O valor recomendado de entropia para 1000 chaves é: 9.97 bits
