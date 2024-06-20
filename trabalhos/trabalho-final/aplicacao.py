@@ -60,7 +60,7 @@ def simpsons_3_8_rule(f, a, b, n):
 # Como temos uma distribuição discreta de chaves, vamos usar os índices dos elementos como x
 a = 0  # índice inicial
 b = len(key_frequencies) - 1  # índice final
-n = 10000  # número de subdivisões
+n = 1000  # número de subdivisões
 
 # Para facilitar a integração, mapeamos os índices aos itens únicos na lista de chaves
 unique_keys = list(key_frequencies.keys())
